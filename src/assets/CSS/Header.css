@@ -1,0 +1,40 @@
+nav.navbar.navbar-expand-md {
+  display: flex;
+}
+button.navbar-toggler.collap {
+  color: #fff;
+  border: none;
+}
+button.navbar-toggler.collap:focus {
+  outline: 0;
+  border: none;
+  box-shadow: none;
+}
+div.navbar-nav {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+div.collapse.navbar-collapse.nav.show {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #240b36;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+.navbar-nav .nav-link.active,
+a.nav-link {
+  font-weight: 500;
+  cursor: pointer;
+}
+i.bi.bi-list,
+i.bi.bi-x-lg {
+  position: fixed;
+  z-index: 2;
+  cursor: pointer;
+  color: #fff;
+  border-radius: 2px;
+}

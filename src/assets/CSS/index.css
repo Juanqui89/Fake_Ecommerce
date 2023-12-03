@@ -1,0 +1,136 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+body {
+  background: #ebebeb;
+}
+nav {
+  z-index: 3;
+}
+.navbar-nav .nav-link.active,
+a.nav-link {
+  color: #fff;
+}
+a.nav-link:hover {
+  background: #ea384d;
+  color: #fff;
+  cursor: pointer;
+  border-radius: 5px;
+  padding: 5px;
+}
+a.nav-link.active:hover {
+  color: #fff;
+}
+nav:focus,
+button.navbar-toggler.collap:focus,
+i.bi.bi-list:focus,
+i.bi.bi-x-lg:focus {
+  outline: none;
+  border: none;
+}
+i.bi.bi-list,
+i.bi.x-lg {
+  cursor: pointer;
+}
+i.bi.bi-list:hover {
+  background: #ea384d;
+}
+div h1.title {
+  margin: 50px 0;
+}
+section.content {
+  display: grid;
+  margin-bottom: 80px;
+}
+.card {
+  background: #fff;
+  border-radius: 10px;
+  border: 1px solid #222;
+  padding: 10px;
+  position: relative;
+  overflow: hidden;
+  transition: background 0.3s ease;
+}
+.card:hover {
+  background: #240b36;
+  color: #fff;
+}
+img.card-img.product-img {
+  background: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  border: none;
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: cover;
+}
+div.card-title.h5,
+p.card-text {
+  text-align: center;
+  font-weight: 500;
+}
+button.btn-comprar {
+  background: #240b36;
+  color: #fff;
+  cursor: pointer;
+  border: none;
+  border-radius: 8px;
+  position: relative;
+  z-index: 1;
+  transition: background 0.3s ease;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+}
+button.btn-comprar:focus {
+  outline: none;
+}
+.card:hover button.btn-comprar {
+  background: #ea384d;
+  color: #fff;
+}
+i.bi.bi-arrow-up-short {
+  position: fixed;
+  cursor: pointer;
+  background: #240b36;
+  color: #fff;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2px;
+}
+i.bi.bi-arrow-up-short:focus {
+  outline: none;
+}
+i.bi.bi-arrow-up-short:hover {
+  background: #ea384d;
+}
+footer {
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: #240b36;
+  color: #fff;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  z-index: 2;
+}
+p.p-footer {
+  text-align: center;
+  font-weight: 500;
+}
